@@ -1205,6 +1205,7 @@ def assert_frame_equal(
     check_names : bool, default True
         Whether to check that the `names` attribute for both the `index`
         and `column` attributes of the DataFrame is identical.
+        If False, compare `names` attribute for `column` attribute only.
     by_blocks : bool, default False
         Specify how to compare internal data. If False, compare by columns.
         If True, compare by blocks.
